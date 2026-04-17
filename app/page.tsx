@@ -405,7 +405,7 @@ export default function Home() {
                   {
                     n: "02",
                     title: "Buy fractional equity",
-                    body: "Invest as little as $100. Your stake is held in a regulated structure — transparent, documented, and legally yours.",
+                    body: "Invest as little as $100. Your stake is held in a legally documented, transferable structure — transparent, audited, and legally yours.",
                   },
                   {
                     n: "03",
