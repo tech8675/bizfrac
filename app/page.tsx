@@ -39,16 +39,6 @@ export default function Home() {
             Coming Soon
           </span>
         </div>
-        <a
-          href="mailto:aaron@bizfrac.com"
-          style={{
-            color: "var(--gray-soft)",
-            fontSize: "0.875rem",
-            textDecoration: "none",
-          }}
-        >
-          aaron@bizfrac.com
-        </a>
       </nav>
 
       {/* ── HERO ── */}
@@ -698,16 +688,6 @@ export default function Home() {
         >
           Fractional equity for Main Street businesses.
         </p>
-        <a
-          href="mailto:aaron@bizfrac.com"
-          style={{
-            color: "var(--gold)",
-            fontSize: "0.85rem",
-            textDecoration: "none",
-          }}
-        >
-          aaron@bizfrac.com
-        </a>
         <p
           style={{
             color: "rgba(138,154,181,0.4)",
