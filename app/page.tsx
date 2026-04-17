@@ -23,7 +23,7 @@ export default function Home() {
               fontFamily: "Georgia, serif",
             }}
           >
-            BizFrac
+            BizFrac™
           </span>
           <span
             style={{
@@ -105,32 +105,43 @@ export default function Home() {
             marginBottom: "4rem",
           }}
         >
-          {["Laundromats", "Car Washes", "Self-Storage", "Vending Routes"].map(
-            (biz) => (
-              <span
-                key={biz}
-                style={{
-                  fontSize: "0.8rem",
-                  color: "var(--gold)",
-                  letterSpacing: "0.06em",
-                  display: "flex",
-                  alignItems: "center",
-                  gap: "0.4rem",
-                }}
-              >
-                <span
-                  style={{
-                    width: "6px",
-                    height: "6px",
-                    borderRadius: "50%",
-                    background: "var(--gold)",
-                    display: "inline-block",
-                  }}
-                />
-                {biz}
-              </span>
-            )
-          )}
+          {[
+            "Car Washes",
+            "Laundromats",
+            "Self-Storage",
+            "MedSpas",
+            "Dental Offices",
+            "Ophthalmology",
+            "Botox Clinics",
+            "Urgent Care",
+            "Vending Routes",
+            "ATM Networks",
+            "Pest Control Routes",
+            "Lawn Care Routes",
+            "Pool Service Routes",
+            "HVAC Companies",
+            "Parking Lots",
+            "Physical Therapy",
+            "Chiropractic",
+            "IV Therapy",
+            "Franchise Locations",
+            "Senior Care",
+          ].map((biz, i, arr) => (
+            <span
+              key={biz}
+              style={{
+                fontSize: "0.8rem",
+                color: "var(--gold)",
+                letterSpacing: "0.06em",
+                whiteSpace: "nowrap",
+              }}
+            >
+              {biz}
+              {i < arr.length - 1 && (
+                <span style={{ margin: "0 0.6rem", opacity: 0.4 }}>·</span>
+              )}
+            </span>
+          ))}
         </div>
       </section>
 
@@ -191,7 +202,7 @@ export default function Home() {
                 }}
               >
                 Get early access and be notified when businesses go live on
-                BizFrac.
+                BizFrac™.
               </p>
             </div>
 
@@ -312,10 +323,25 @@ export default function Home() {
                 <label style={labelStyle}>What type of business?</label>
                 <select name="business_type" required style={selectStyle}>
                   <option value="">Select your business type</option>
-                  <option value="Laundromat">Laundromat</option>
                   <option value="Car Wash">Car Wash</option>
+                  <option value="Laundromat">Laundromat</option>
                   <option value="Self-Storage">Self-Storage</option>
-                  <option value="Vending">Vending Route</option>
+                  <option value="MedSpa / Botox Clinic">MedSpa / Botox Clinic</option>
+                  <option value="Dental Office">Dental Office</option>
+                  <option value="Ophthalmology Practice">Ophthalmology Practice</option>
+                  <option value="Urgent Care">Urgent Care</option>
+                  <option value="Physical Therapy">Physical Therapy</option>
+                  <option value="Chiropractic">Chiropractic</option>
+                  <option value="IV Therapy Lounge">IV Therapy Lounge</option>
+                  <option value="Vending Routes">Vending Routes</option>
+                  <option value="ATM Network">ATM Network</option>
+                  <option value="Pest Control">Pest Control</option>
+                  <option value="Lawn Care / Landscaping">Lawn Care / Landscaping</option>
+                  <option value="Pool Service">Pool Service</option>
+                  <option value="HVAC Company">HVAC Company</option>
+                  <option value="Parking Lot / Garage">Parking Lot / Garage</option>
+                  <option value="Franchise Location">Franchise Location</option>
+                  <option value="Senior Care Facility">Senior Care Facility</option>
                   <option value="Other">Other</option>
                 </select>
               </div>
@@ -677,7 +703,7 @@ export default function Home() {
             margin: "0 0 0.5rem",
           }}
         >
-          BizFrac
+          BizFrac™
         </p>
         <p
           style={{
@@ -695,7 +721,7 @@ export default function Home() {
             marginTop: "1.5rem",
           }}
         >
-          © {new Date().getFullYear()} BizFrac. All rights reserved. Investment
+          © {new Date().getFullYear()} BizFrac™. All rights reserved. Investment
           offerings subject to regulatory approval.
         </p>
       </footer>
