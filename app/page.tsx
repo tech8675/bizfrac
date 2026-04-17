@@ -71,7 +71,7 @@ export default function Home() {
             fontWeight: 500,
           }}
         >
-          Fractional Business Equity · Main Street Investing
+          Fractional Business Equity · Blockchain-Powered · Main Street Investing
         </p>
 
         {/* Headline */}
@@ -405,7 +405,7 @@ export default function Home() {
                   {
                     n: "02",
                     title: "Buy fractional equity",
-                    body: "Invest as little as $100. Your stake is held in a legally documented, transferable structure — transparent, audited, and legally yours.",
+                    body: "Invest as little as $100. Your stake is tokenized on the blockchain — transparent, transferable, and legally documented in a regulated structure.",
                   },
                   {
                     n: "03",
@@ -564,9 +564,9 @@ export default function Home() {
               desc: "Business owners keep more of their deal — no expensive intermediaries.",
             },
             {
-              stat: "Cash Flow",
-              label: "Not speculation",
-              desc: "Investments are backed by real revenue from operating businesses.",
+              stat: "Tokenized",
+              label: "On the blockchain",
+              desc: "Your equity stake lives on the blockchain — fully transferable and always yours.",
             },
             {
               stat: "Quarterly",
